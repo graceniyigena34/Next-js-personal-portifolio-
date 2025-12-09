@@ -22,7 +22,7 @@ export default function Hero() {
             </a>
           </div>
           <div className="flex gap-6 pt-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-700 hover:text-green-600 transition">
+            <a href="https://github.com/graceniyigena34" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-700 hover:text-green-600 transition">
               <i className="fa-brands fa-github"></i>
             </a>
             <a href="https://linkedin.com/in/marie-grace-niyigena" target="_blank" rel="noopener noreferrer" className="text-2xl text-gray-700 hover:text-green-600 transition">
