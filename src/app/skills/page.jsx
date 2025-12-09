@@ -17,18 +17,18 @@ export default function Skills() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen py-20 px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 animate-fadeInUp">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+          <div className="text-center mb-12 sm:mb-16 animate-fadeInUp">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
               Skills & Expertise
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
               A comprehensive overview of my technical skills and areas of expertise in modern web development
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {[
               { icon: "fa-code", title: "Frontend Development", desc: "Building responsive and interactive user interfaces using HTML5, CSS3, JavaScript, and modern frameworks like React and Vue.js." },
               { icon: "fa-server", title: "Backend Development", desc: "Creating robust server-side applications with Node.js, Python, and database management using MongoDB and PostgreSQL." },
@@ -47,9 +47,9 @@ export default function Skills() {
             ))}
           </div>
 
-          <div className="bg-white p-12 rounded-3xl shadow-xl">
-            <h2 className="text-3xl font-semibold text-center mb-12">Technical Proficiency</h2>
-            <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
+          <div className="bg-white p-6 sm:p-10 lg:p-12 rounded-3xl shadow-xl">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 sm:mb-12">Technical Proficiency</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12 gap-y-6 sm:gap-y-8">
               {[
                 { name: "JavaScript/TypeScript", percent: 90 },
                 { name: "React & Next.js", percent: 85 },

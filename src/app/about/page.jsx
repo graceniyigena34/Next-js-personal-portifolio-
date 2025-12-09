@@ -23,10 +23,10 @@ export default function About() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen py-20 px-8 bg-gradient-to-br from-gray-50 to-gray-100">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           <div className="flex-1 space-y-6">
-            <h2 className="text-5xl font-bold text-gray-900">About Me</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">About Me</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               Hi! I'm Marie Grace Niyigena, a passionate frontend developer and designer 
               specializing in building modern, responsive, and user-friendly websites. 
@@ -40,7 +40,7 @@ export default function About() {
               ever-evolving field.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 py-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-6">
               <div className="flex items-center gap-3">
                 <i className="fas fa-check text-green-600 text-xl"></i>
                 <span className="text-gray-800">Frontend Development</span>
@@ -59,7 +59,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="flex gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a href="/Grace CV (1).pdf" download="Marie_Grace_CV.pdf" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
                 <i className="fas fa-download"></i> Download CV
               </a>
@@ -82,8 +82,8 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex-1 flex justify-center">
-            <div className="w-96 h-96 rounded-2xl overflow-hidden shadow-2xl">
+          <div className="flex-1 flex justify-center mt-8 lg:mt-0">
+            <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl">
               <img src="/figma.jpeg" alt="Marie Grace Niyigena" className="w-full h-full object-cover" />
             </div>
           </div>

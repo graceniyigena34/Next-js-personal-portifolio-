@@ -16,20 +16,20 @@ export default function ContactPage() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen py-20 px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
               Get In Touch
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
               Have a project in mind or just want to chat? I'd love to hear from you. Let's create something amazing together!
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              <h2 className="text-3xl font-semibold">Let's Connect</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            <div className="space-y-4 sm:space-y-6">
+              <h2 className="text-2xl sm:text-3xl font-semibold">Let's Connect</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
                 I'm always open to discussing new opportunities, creative projects, 
                 or just having a friendly conversation about web development and design.
@@ -55,14 +55,14 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="bg-white p-10 rounded-3xl shadow-xl">
-              <div className="text-center mb-8">
-                <h2 className="text-3xl font-semibold mb-2">Send Message</h2>
+            <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-3xl shadow-xl">
+              <div className="text-center mb-6 sm:mb-8">
+                <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Send Message</h2>
                 <p className="text-gray-600">Fill out the form below and I'll get back to you as soon as possible.</p>
               </div>
 
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
+              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block mb-2 font-medium">First Name</label>
                     <input type="text" required className="w-full p-3 border-2 border-gray-200 rounded-xl bg-gray-50 focus:border-blue-600 focus:bg-white outline-none transition" />

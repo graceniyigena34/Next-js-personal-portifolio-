@@ -15,16 +15,16 @@ export default function Blog() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen py-20 px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
               Blog & Articles
             </h1>
-            <p className="text-xl text-gray-600">Thoughts, tutorials, and insights on web development and design</p>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 px-4">Thoughts, tutorials, and insights on web development and design</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {blogs.map((blog, i) => (
               <div key={i} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 <div className="h-48 bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
@@ -50,8 +50,8 @@ export default function Blog() {
             ))}
           </div>
 
-          <div className="text-center p-12 bg-white rounded-2xl shadow-xl">
-            <h2 className="text-3xl font-semibold mb-4">View My Experience</h2>
+          <div className="text-center p-6 sm:p-10 lg:p-12 bg-white rounded-2xl shadow-xl">
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">View My Experience</h2>
             <p className="text-gray-600 text-lg mb-6">Explore my professional journey and career milestones</p>
             <a href="/experience" className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-full font-semibold hover:scale-105 transition">
               View Experience <i className="fas fa-arrow-right ml-2"></i>
