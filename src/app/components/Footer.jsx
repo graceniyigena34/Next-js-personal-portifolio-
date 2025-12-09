@@ -15,10 +15,10 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-green-500 transition">Home</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-green-500 transition">About</a></li>
-              <li><a href="#skills" className="text-gray-400 hover:text-green-500 transition">Skills</a></li>
-              <li><a href="#projects" className="text-gray-400 hover:text-green-500 transition">Projects</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-green-500 transition">Home</a></li>
+              <li><a href="/about" className="text-gray-400 hover:text-green-500 transition">About</a></li>
+              <li><a href="/skills" className="text-gray-400 hover:text-green-500 transition">Skills</a></li>
+              <li><a href="/projects" className="text-gray-400 hover:text-green-500 transition">Projects</a></li>
             </ul>
           </div>
           

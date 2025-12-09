@@ -14,10 +14,10 @@ export default function Hero() {
             solutions.
           </p>
           <div className="flex gap-4 pt-4">
-            <a href="#projects" className="px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition">
+            <a href="/projects" className="px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition">
               View My Work
             </a>
-            <a href="#contact" className="px-8 py-3 bg-white text-black border-2 border-black rounded-lg hover:bg-gray-50 transition">
+            <a href="/contact" className="px-8 py-3 bg-white text-black border-2 border-black rounded-lg hover:bg-gray-50 transition">
               Get In Touch
             </a>
           </div>
