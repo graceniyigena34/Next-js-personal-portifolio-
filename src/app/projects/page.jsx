@@ -20,26 +20,26 @@ export default function Projects() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen py-20 px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
               Featured Projects
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
               A showcase of my recent work and projects I'm proud of. Each project represents my passion for creating innovative solutions.
             </p>
           </div>
 
-          <div className="flex justify-center gap-4 mb-12 flex-wrap">
+          <div className="flex justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 flex-wrap px-4">
             {["all", "web", "mobile", "design"].map(f => (
-              <button key={f} onClick={() => setFilter(f)} className={`px-6 py-2 rounded-full border-2 border-blue-600 font-medium transition ${filter === f ? 'bg-blue-600 text-white' : 'text-blue-600 hover:bg-blue-600 hover:text-white'}`}>
+              <button key={f} onClick={() => setFilter(f)} className={`px-4 sm:px-6 py-2 text-sm sm:text-base rounded-full border-2 border-blue-600 font-medium transition ${filter === f ? 'bg-blue-600 text-white' : 'text-blue-600 hover:bg-blue-600 hover:text-white'}`}>
                 {f === "all" ? "All Projects" : f === "web" ? "Web Apps" : f === "mobile" ? "Mobile" : "Design"}
               </button>
             ))}
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {filtered.map((project, i) => (
               <div key={i} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 <div className={`h-48 ${project.image ? '' : `bg-gradient-to-br ${project.gradient}`} flex items-center justify-center relative group`} style={project.image ? {backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center'} : {}}>
