@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
         <div className="flex-1 flex justify-center">
           <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-green-600 shadow-2xl">
-            <img src="/passport picture Grace mine .jpg" alt="Profile Image" className="w-full h-full object-cover" />
+            <img src="/profile.jpg" alt="Profile Image" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
