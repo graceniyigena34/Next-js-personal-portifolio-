@@ -40,21 +40,18 @@ const projects = [
     description:
       "Web-based waste collection and environmental services platform with scheduling, tracking, and service request workflows.",
     stack: ["Next.js", "TypeScript", "REST APIs", "Scalable Frontend"],
-    link: "https://next-js-personal-portifolio.vercel.app",
   },
   {
     title: "Event Konnect",
     description:
-      "Full-stack event management system with event creation, registration, and participation features built for real-world use.",
-    stack: ["React", "Node.js", "Database Integration", "Agile"],
-    link: "https://next-js-personal-portifolio.vercel.app/projects",
+      "Event platform that connects vendors and clients, where the client is an event planner who books vendors for events.",
+    stack: ["React", "Node.js", "Vendor Booking", "Event Planner"],
   },
   {
     title: "Enjoy Rwanda",
     description:
-      "Tourism and business listing platform where I contributed to frontend and backend improvements for better visibility and engagement.",
-    stack: ["Next.js", "Node.js", "UX Improvements", "Dynamic Content"],
-    link: "https://next-js-personal-portifolio.vercel.app/projects",
+      "Tourism platform where visitors can book shops and restaurants, reserve tables, and pay online.",
+    stack: ["Next.js", "Node.js", "Online Payments", "Table Reservation"],
   },
 ];
 
@@ -93,10 +90,11 @@ const timeline = [
     ],
   },
   {
-    period: "Sep 2022 - Present",
-    role: "Full-Stack Web & Mobile Developer",
+    period: "2022 - 2026",
+    role: "Information Technology Student",
     place: "University of Rwanda",
     points: [
+      "Studied at University of Rwanda in Department of IT (2022 - 2026).",
       "Developed web and mobile apps using React, Next.js, React Native, Django, and TypeScript.",
       "Built RESTful APIs using Node.js and Express.js.",
       "Managed MongoDB and PostgreSQL databases.",
@@ -158,13 +156,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative mx-auto w-full max-w-md">
-              <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_top,_#34d399_0,_transparent_60%)] opacity-80 blur-xl" />
-              <div className="relative rounded-[2rem] border border-white/70 bg-white/80 p-4 shadow-2xl backdrop-blur">
+            <div className="relative mx-auto w-full max-w-md flex justify-center">
+              <div className="absolute -inset-6 rounded-full bg-[radial-gradient(circle_at_top,_#34d399_0,_transparent_60%)] opacity-80 blur-xl" />
+              <div className="relative rounded-full border border-white/70 bg-white/80 p-4 shadow-2xl backdrop-blur">
                 <img
                   src="/profile.jpg"
                   alt="Marie Grace Niyigena"
-                  className="h-[430px] w-full rounded-[1.5rem] object-cover"
+                  className="h-[360px] w-[360px] rounded-full object-cover"
                 />
               </div>
             </div>

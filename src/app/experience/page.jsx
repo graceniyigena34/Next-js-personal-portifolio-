@@ -39,10 +39,10 @@ export default function Experience() {
       ]
     },
     {
-      date: "Sep 2022 - Present",
-      title: "Full-Stack Web & Mobile Developer",
+      date: "2022 - 2026",
+      title: "Information Technology Student",
       company: "University of Rwanda",
-      desc: "Developing modern web and mobile applications as part of academic and project-based work.",
+      desc: "Studied at University of Rwanda in Department of IT (2022 - 2026).",
       items: [
         "Developed applications using React, Next.js, React Native, Django, and TypeScript.",
         "Built RESTful APIs with Node.js and Express.js.",
