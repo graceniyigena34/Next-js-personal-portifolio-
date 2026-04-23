@@ -24,18 +24,18 @@ export default function Skills() {
               Skills & Expertise
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-              A comprehensive overview of my technical skills and areas of expertise in modern web development
+              Technical skills I use to design, build, and scale full-stack and mobile applications
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {[
-              { icon: "fa-code", title: "Frontend Development", desc: "Building responsive and interactive user interfaces using HTML5, CSS3, JavaScript, and modern frameworks like React and Vue.js." },
-              { icon: "fa-server", title: "Backend Development", desc: "Creating robust server-side applications with Node.js, Python, and database management using MongoDB and PostgreSQL." },
-              { icon: "fa-paint-brush", title: "UI/UX Design", desc: "Designing intuitive and visually appealing user experiences using Figma, Adobe XD, and modern design principles." },
-              { icon: "fa-database", title: "Database & APIs", desc: "Designing efficient database schemas and building RESTful APIs for seamless data management and integration." },
-              { icon: "fa-mobile-alt", title: "Mobile Development", desc: "Creating cross-platform mobile applications using React Native and ensuring optimal performance across devices." },
-              { icon: "fa-tools", title: "Development Tools", desc: "Proficient with Git, Webpack, Docker, and modern development workflows for efficient project management." }
+              { icon: "fa-code", title: "Frontend", desc: "React.js, Next.js, TypeScript, JavaScript, HTML, and CSS for building responsive user interfaces." },
+              { icon: "fa-mobile-alt", title: "Mobile", desc: "React Native for cross-platform mobile application development and smooth user experiences." },
+              { icon: "fa-server", title: "Backend", desc: "Node.js, Express.js, and Django for RESTful API development and scalable server-side logic." },
+              { icon: "fa-database", title: "Databases", desc: "MongoDB, PostgreSQL, and Supabase for reliable data storage, querying, and authentication workflows." },
+              { icon: "fa-tools", title: "Tools", desc: "Git, GitHub, Figma, Adobe Express, Canva, and MS Office for development and team collaboration." },
+              { icon: "fa-users", title: "Workflow", desc: "Agile teamwork, collaborative development, and end-to-end delivery from concept to deployment." }
             ].map((skill, i) => (
               <div key={i} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300" style={{animation: `fadeInUp 1s ease ${i * 0.1}s both`}}>
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center mb-6">
@@ -51,12 +51,12 @@ export default function Skills() {
             <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-8 sm:mb-12">Technical Proficiency</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12 gap-y-6 sm:gap-y-8">
               {[
-                { name: "JavaScript/TypeScript", percent: 90 },
-                { name: "React & Next.js", percent: 85 },
-                { name: "HTML5 & CSS3", percent: 95 },
-                { name: "UI/UX Design", percent: 80 },
-                { name: "Node.js & Python", percent: 75 },
-                { name: "Database Design", percent: 70 }
+                { name: "React.js & Next.js", percent: 90 },
+                { name: "JavaScript & TypeScript", percent: 88 },
+                { name: "Node.js & Express.js", percent: 82 },
+                { name: "Django", percent: 76 },
+                { name: "React Native", percent: 80 },
+                { name: "MongoDB & PostgreSQL", percent: 84 }
               ].map((skill, i) => (
                 <div key={i} className="mb-6">
                   <div className="flex justify-between mb-2">

@@ -4,11 +4,53 @@ import Footer from "../components/Footer";
 
 export default function Experience() {
   const experiences = [
-    { date: "2024 - Present", title: "Frontend Developer", company: "Tech Company, Kigali", desc: "Leading frontend development projects and creating responsive web applications.", items: ["Developed 20+ responsive web applications", "Improved website performance by 40%", "Mentored junior developers"] },
-    { date: "2023 - 2024", title: "UI/UX Designer", company: "Design Studio, Kigali", desc: "Created user-centered designs and improved user experience across multiple platforms.", items: ["Designed 15+ web and mobile interfaces", "Conducted user research and testing", "Increased user engagement by 35%"] },
-    { date: "2022 - 2023", title: "Web Developer Bootcamp", company: "SheCanCode Bootcamp, Kigali", desc: "Assisted in developing web applications and learned modern development practices.", items: ["Built responsive landing pages", "Collaborated with developers", "Learned React, modern JavaScript and nextjs"] },
-    { date: "March 24 - May 23, 2025", title: "IT Support Internship (Networking)", company: "Rwanda Energy Group (REG), Kigali", desc: "Completed a two-month IT support internship focusing on networking and technical support tasks.", items: ["Assisted in setting up and maintaining network infrastructure", "Troubleshot network connectivity issues for staff", "Configured routers, switches, and network devices", "Learned practical networking skills in a professional IT environment"] },
-    { date: "2021 - 2022", title: "Freelance Web Designer", company: "Self-Employed", desc: "Provided web design services to local businesses and startups.", items: ["Completed 20+ client projects", "Built strong client relationships", "Developed portfolio of diverse work"] }
+    {
+      date: "Apr 2026 - May 2026",
+      title: "Software Developer Intern",
+      company: "RG Consult",
+      desc: "Worked as a Full-Stack Developer on the Enjoy Rwanda platform.",
+      items: [
+        "Improved business listing features and user interaction system.",
+        "Contributed to frontend and backend development.",
+        "Collaborated using Git and GitHub for version control."
+      ]
+    },
+    {
+      date: "Nov 2025 - Apr 2026",
+      title: "Full-Stack Developer",
+      company: "kLab Academy",
+      desc: "Built Event Konnect, a full-stack event management system.",
+      items: [
+        "Developed event creation, registration, and user interaction features.",
+        "Worked in an Agile team environment using modern development workflows.",
+        "Integrated APIs and databases for dynamic functionality."
+      ]
+    },
+    {
+      date: "Sep 2025 - Mar 2026",
+      title: "Frontend Development Trainee",
+      company: "SheCanCode Bootcamp",
+      desc: "Gained strong frontend foundations through real-world projects and modern tooling.",
+      items: [
+        "Learned HTML, CSS, JavaScript, React, TypeScript, and Next.js.",
+        "Built responsive UI components and frontend applications.",
+        "Developed Greenex Waste Management System (Frontend).",
+        "Applied UI/UX best practices in practical development work."
+      ]
+    },
+    {
+      date: "Sep 2022 - Present",
+      title: "Full-Stack Web & Mobile Developer",
+      company: "University of Rwanda",
+      desc: "Developing modern web and mobile applications as part of academic and project-based work.",
+      items: [
+        "Developed applications using React, Next.js, React Native, Django, and TypeScript.",
+        "Built RESTful APIs with Node.js and Express.js.",
+        "Managed MongoDB and PostgreSQL databases.",
+        "Implemented authentication systems using Supabase.",
+        "Worked collaboratively with Git and GitHub."
+      ]
+    }
   ];
 
   return (
@@ -20,7 +62,7 @@ export default function Experience() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
               Work Experience
             </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-gray-600 px-4">My professional journey and career milestones</p>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 px-4">My full-stack and mobile development journey across internships, academy projects, and university work</p>
           </div>
 
           <div className="relative">
@@ -50,10 +92,10 @@ export default function Experience() {
           </div>
 
           <div className="text-center mt-12 sm:mt-16 p-6 sm:p-10 lg:p-12 bg-white rounded-2xl shadow-xl">
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Read My Blog</h2>
-            <p className="text-gray-600 text-lg mb-6">Check out my latest articles on web development and design</p>
-            <a href="/blog" className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-full font-semibold hover:scale-105 transition">
-              View Blog <i className="fas fa-arrow-right ml-2"></i>
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Explore My Projects</h2>
+            <p className="text-gray-600 text-lg mb-6">See the platforms and products where I applied these full-stack skills in real scenarios</p>
+            <a href="/projects" className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-full font-semibold hover:scale-105 transition">
+              View Projects <i className="fas fa-arrow-right ml-2"></i>
             </a>
           </div>
         </div>

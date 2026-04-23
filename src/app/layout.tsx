@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Marie Grace Niyigena - Portfolio",
-  description: "Frontend Developer & Designer",
+  description: "Full Stack Developer building modern, scalable, and user-focused digital products.",
 };
 
 export default function RootLayout({
