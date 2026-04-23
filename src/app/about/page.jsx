@@ -1,25 +1,8 @@
 "use client";
-import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export default function About() {
-  const [uploadStatus, setUploadStatus] = useState("");
-
-  const handleFileUpload = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
-      if (allowedTypes.includes(file.type)) {
-        setUploadStatus(`✓ CV "${file.name}" uploaded successfully!`);
-        setTimeout(() => setUploadStatus(""), 5000);
-      } else {
-        setUploadStatus('✗ Please upload a PDF, DOC, or DOCX file.');
-        setTimeout(() => setUploadStatus(""), 5000);
-      }
-    }
-  };
-
   return (
     <div>
       <Navbar />
@@ -63,21 +46,11 @@ export default function About() {
               <a href="/Grace CV (1).pdf" download="Marie_Grace_CV.pdf" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
                 <i className="fas fa-download"></i> Download CV
               </a>
-              <button onClick={() => document.getElementById('cvUpload').click()} className="px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition">
-                <i className="fas fa-upload"></i> Upload New CV
-              </button>
-              <input type="file" id="cvUpload" accept=".pdf,.doc,.docx" onChange={handleFileUpload} className="hidden" />
             </div>
-            
-            {uploadStatus && (
-              <div className={`p-3 rounded ${uploadStatus.includes('✓') ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-                {uploadStatus}
-              </div>
-            )}
             
             <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
               <p className="text-gray-700">
-                <i className="fas fa-info-circle text-blue-500"></i> Click "Download CV" to get my latest resume or "Upload New CV" to replace it with an updated version.
+                <i className="fas fa-info-circle text-blue-500"></i> Click "Download CV" to get my latest resume.
               </p>
             </div>
           </div>

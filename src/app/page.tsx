@@ -92,9 +92,10 @@ const timeline = [
   {
     period: "2022 - 2026",
     role: "Information Technology Student",
-    place: "University of Rwanda",
+    place: "University of Rwanda, College of Science and Technology",
     points: [
-      "Studied at University of Rwanda in Department of IT (2022 - 2026).",
+      "Studied Information Technology at University of Rwanda, College of Science and Technology (2022 - 2026).",
+      "Learned networking and software development through academic and practical projects.",
       "Developed web and mobile apps using React, Next.js, React Native, Django, and TypeScript.",
       "Built RESTful APIs using Node.js and Express.js.",
       "Managed MongoDB and PostgreSQL databases.",

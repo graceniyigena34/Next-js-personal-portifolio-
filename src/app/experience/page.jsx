@@ -41,8 +41,8 @@ export default function Experience() {
     {
       date: "2022 - 2026",
       title: "Information Technology Student",
-      company: "University of Rwanda",
-      desc: "Studied at University of Rwanda in Department of IT (2022 - 2026).",
+      company: "University of Rwanda, College of Science and Technology",
+      desc: "Studied Information Technology and learned networking and software development (2022 - 2026).",
       items: [
         "Developed applications using React, Next.js, React Native, Django, and TypeScript.",
         "Built RESTful APIs with Node.js and Express.js.",
