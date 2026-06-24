@@ -155,7 +155,7 @@ export default function Home() {
                 <a href="https://github.com/graceniyigena34" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
                   <i className="fa-brands fa-github" />
                 </a>
-                <a href="https://linkedin.com/in/marie-grace-niyigena" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
+                <a href="https://www.linkedin.com/in/marie-grace-niyigena-14000a285" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">
                   <i className="fa-brands fa-linkedin" />
                 </a>
                 <a href="mailto:graceniyigena34@gmail.com" className="hover:text-emerald-600 transition">
