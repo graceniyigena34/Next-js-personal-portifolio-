@@ -38,8 +38,9 @@ const projects = [
   {
     title: "Greenex Waste Collection Management System",
     description:
-      "Web-based waste collection and environmental services platform with scheduling, tracking, and service request workflows.",
-    stack: ["Next.js", "TypeScript", "REST APIs", "Scalable Frontend"],
+      "Full-stack web and mobile waste collection platform with scheduling, real-time tracking, and service request workflows. Web and mobile apps connected.",
+    stack: ["Next.js", "TypeScript", "React Native", "REST APIs"],
+    link: "https://waste-collection-management-system.vercel.app/",
   },
   {
     title: "Event Konnect",
@@ -244,6 +245,11 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
+                  {project.link && (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700 transition">
+                      Live Demo →
+                    </a>
+                  )}
                 </article>
               ))}
             </div>

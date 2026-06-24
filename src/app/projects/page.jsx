@@ -7,6 +7,7 @@ export default function Projects() {
   const [filter, setFilter] = useState("all");
 
   const projects = [
+    { category: "web", title: "Greenex Waste Collection System", desc: "Full-stack web and mobile waste collection management platform with scheduling, real-time tracking, service request workflows, and business listing features. Connected web and mobile apps.", tech: ["Next.js", "TypeScript", "React Native", "REST APIs"], link: "https://waste-collection-management-system.vercel.app/", image: "/greenex.png" },
     { category: "web", title: "E-Commerce Platform", desc: "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics dashboard.", tech: ["React", "TypeScript", "Tailwind"], link: "https://e-commerce-vxgc-lake.vercel.app", image: "/ecommerce-image.png" },
     { category: "web", title: "Developer Dashboard", desc: "Developer Dashboard is a modern, responsive web application. It offers a clean interface for viewing and managing essential metrics via a sidebar navigation, top navbar, analytics / stats cards, and interactive charts.", tech: ["React", "TypeScript", "Tailwind"], link: "https://developer-dashboard-2cfv.vercel.app", image: "/developer-dashboard.png" },
     { category: "web", title: "Task Management App", desc: "A collaborative task management application with real-time updates, team collaboration features, and project tracking.", tech: ["Next.js", "TypeScript", "Tailwind", "Socket.io"], link: "#", gradient: "from-purple-600 to-purple-800" },
