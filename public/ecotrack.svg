@@ -1,0 +1,98 @@
+<svg width="1200" height="675" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0.65"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8a898"/>
+      <stop offset="100%" stop-color="#8b7b6b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b5b4b"/>
+      <stop offset="100%" stop-color="#5a4a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1200" height="675" fill="url(#sky)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="420" width="1200" height="255" fill="url(#ground)"/>
+
+  <!-- Road -->
+  <rect x="380" y="300" width="440" height="375" fill="#7a6a5a"/>
+  <rect x="580" y="300" width="40" height="375" fill="#6a5a4a"/>
+
+  <!-- Buildings left -->
+  <rect x="0" y="180" width="260" height="300" fill="#c4a882" opacity="0.8"/>
+  <rect x="20" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="90" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="160" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="20" y="280" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="90" y="280" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+
+  <!-- Buildings right -->
+  <rect x="940" y="180" width="260" height="300" fill="#c4a882" opacity="0.8"/>
+  <rect x="960" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="1030" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="1100" y="200" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="960" y="280" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+  <rect x="1030" y="280" width="50" height="60" fill="#8b6914" opacity="0.6"/>
+
+  <!-- Garbage truck body -->
+  <rect x="490" y="340" width="220" height="110" rx="8" fill="#2d5a1b"/>
+  <rect x="490" y="370" width="80" height="80" rx="6" fill="#1e3d12"/>
+  <!-- Cab -->
+  <rect x="495" y="375" width="70" height="50" rx="4" fill="#3a7023"/>
+  <!-- Windows -->
+  <rect x="502" y="382" width="28" height="22" rx="2" fill="#87ceeb" opacity="0.7"/>
+  <rect x="537" y="382" width="20" height="22" rx="2" fill="#87ceeb" opacity="0.7"/>
+  <!-- Wheels -->
+  <circle cx="530" cy="455" r="22" fill="#1a1a1a"/>
+  <circle cx="530" cy="455" r="12" fill="#444"/>
+  <circle cx="660" cy="455" r="22" fill="#1a1a1a"/>
+  <circle cx="660" cy="455" r="12" fill="#444"/>
+
+  <!-- Workers - left (orange) -->
+  <ellipse cx="200" cy="490" rx="18" ry="40" fill="#e07820"/>
+  <circle cx="200" cy="440" r="14" fill="#8b5e3c"/>
+  <rect x="185" y="448" width="30" height="8" rx="4" fill="#f59e0b"/>
+
+  <ellipse cx="260" cy="495" rx="18" ry="38" fill="#e07820"/>
+  <circle cx="260" cy="447" r="14" fill="#8b5e3c"/>
+  <rect x="245" y="455" width="30" height="8" rx="4" fill="#f59e0b"/>
+
+  <!-- Workers - right (green) -->
+  <ellipse cx="920" cy="490" rx="18" ry="40" fill="#2d7a2d"/>
+  <circle cx="920" cy="440" r="14" fill="#6b4226"/>
+  <rect x="905" y="448" width="30" height="8" rx="4" fill="#4ade80"/>
+
+  <ellipse cx="980" cy="495" rx="18" ry="38" fill="#2d7a2d"/>
+  <circle cx="980" cy="447" r="14" fill="#6b4226"/>
+  <rect x="965" y="455" width="30" height="8" rx="4" fill="#4ade80"/>
+
+  <ellipse cx="1060" cy="488" rx="18" ry="42" fill="#2d7a2d"/>
+  <circle cx="1060" cy="436" r="14" fill="#6b4226"/>
+
+  <!-- Dark overlay -->
+  <rect width="1200" height="675" fill="url(#overlay)"/>
+
+  <!-- EcoTrack Title -->
+  <!-- "Eco" in light green -->
+  <text x="600" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="130" font-weight="900" fill="#86efac" text-anchor="middle" letter-spacing="-2">Eco</text>
+  <!-- "Track" in white -->
+  <text x="600" y="310" font-family="Georgia, 'Times New Roman', serif" font-size="130" font-weight="900" fill="#f0fdf4" text-anchor="middle" letter-spacing="-2" opacity="0.92">Track</text>
+
+  <!-- Subtitle lines -->
+  <text x="600" y="370" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#e2e8f0" text-anchor="middle">Smarter waste management for a sustainable future</text>
+  <text x="600" y="408" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#e2e8f0" text-anchor="middle">Building eco-friendly communities across Rwanda</text>
+
+  <!-- Get Started button -->
+  <rect x="330" y="440" width="210" height="62" rx="32" fill="#16a34a"/>
+  <text x="435" y="479" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">Get Started</text>
+
+  <!-- Learn More button -->
+  <rect x="560" y="440" width="210" height="62" rx="32" fill="transparent" stroke="white" stroke-width="2.5"/>
+  <text x="665" y="479" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="white" text-anchor="middle">Learn More</text>
+</svg>
