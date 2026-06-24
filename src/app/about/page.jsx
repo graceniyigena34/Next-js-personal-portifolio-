@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const skills = [
   { label: "Frontend", detail: "React.js, Next.js, TypeScript, JavaScript, HTML, CSS" },
   { label: "Mobile", detail: "React Native" },
-  { label: "Backend", detail: "Node.js, Express.js, Django" },
+  { label: "Backend", detail: "Node.js, Express.js, Django, Python" },
   { label: "Databases", detail: "MongoDB, PostgreSQL, Supabase" },
   { label: "Tools", detail: "Git, GitHub, Figma, Adobe Express, Canva, MS Office" },
 ];

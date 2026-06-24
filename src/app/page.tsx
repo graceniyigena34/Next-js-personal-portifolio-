@@ -18,7 +18,7 @@ const stacks = [
     icon: "fa-server",
     title: "Backend Development",
     summary:
-      "Node.js, Express.js, and Django for RESTful APIs, business logic, and scalable backend services.",
+      "Node.js, Express.js, Django, and Python for RESTful APIs, business logic, and scalable backend services.",
   },
   {
     icon: "fa-database",

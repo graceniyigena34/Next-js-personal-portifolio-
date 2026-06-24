@@ -32,7 +32,7 @@ export default function Skills() {
             {[
               { icon: "fa-code", title: "Frontend", desc: "React.js, Next.js, TypeScript, JavaScript, HTML, and CSS for building responsive user interfaces." },
               { icon: "fa-mobile-alt", title: "Mobile", desc: "React Native for cross-platform mobile application development and smooth user experiences." },
-              { icon: "fa-server", title: "Backend", desc: "Node.js, Express.js, and Django for RESTful API development and scalable server-side logic." },
+              { icon: "fa-server", title: "Backend", desc: "Node.js, Express.js, Django, and Python for RESTful API development and scalable server-side logic." },
               { icon: "fa-database", title: "Databases", desc: "MongoDB, PostgreSQL, and Supabase for reliable data storage, querying, and authentication workflows." },
               { icon: "fa-tools", title: "Tools", desc: "Git, GitHub, Figma, Adobe Express, Canva, and MS Office for development and team collaboration." },
               { icon: "fa-users", title: "Workflow", desc: "Agile teamwork, collaborative development, and end-to-end delivery from concept to deployment." }
@@ -54,7 +54,7 @@ export default function Skills() {
                 { name: "React.js & Next.js", percent: 90 },
                 { name: "JavaScript & TypeScript", percent: 88 },
                 { name: "Node.js & Express.js", percent: 82 },
-                { name: "Django", percent: 76 },
+                { name: "Python & Django", percent: 78 },
                 { name: "React Native", percent: 80 },
                 { name: "MongoDB & PostgreSQL", percent: 84 }
               ].map((skill, i) => (
