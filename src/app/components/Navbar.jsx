@@ -20,6 +20,7 @@ export default function Navbar() {
             <a href="/skills" className="text-gray-700 hover:text-blue-600 font-medium transition">Skills</a>
             <a href="/projects" className="text-gray-700 hover:text-blue-600 font-medium transition">Projects</a>
             <a href="/blog" className="text-gray-700 hover:text-blue-600 font-medium transition">Blog</a>
+            <a href="/faq" className="text-gray-700 hover:text-blue-600 font-medium transition">FAQ</a>
             <a href="/contact" className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contact</a>
           </div>
         </div>
@@ -33,6 +34,7 @@ export default function Navbar() {
             <a href="/skills" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Skills</a>
             <a href="/projects" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Projects</a>
             <a href="/blog" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Blog</a>
+            <a href="/faq" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">FAQ</a>
             <a href="/contact" onClick={() => setIsOpen(false)} className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition text-center">Contact</a>
           </div>
         </div>
