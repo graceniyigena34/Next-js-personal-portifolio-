@@ -18,7 +18,7 @@ export default function About() {
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               I work with frontend and backend technologies including HTML, CSS, 
-              JavaScript, React,next. js,  Python, Django, and more. I love solving problems 
+              JavaScript, React, Next.js, Python, Django, and more. I love solving problems
               and continuously learning new technologies to stay ahead in this 
               ever-evolving field.
             </p>
@@ -43,7 +43,7 @@ export default function About() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="/Grace CV (1).pdf" download="Marie_Grace_CV.pdf" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+              <a href="/Grace%20CV%20(1).pdf" download="Marie_Grace_CV.pdf" className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
                 <i className="fas fa-download"></i> Download CV
               </a>
             </div>
