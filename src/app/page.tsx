@@ -36,7 +36,7 @@ const stacks = [
 
 const projects = [
   {
-    title: "Greenex Waste Collection Management System",
+    title: "ECOTRACK Waste Collection Management System",
     description:
       "Full-stack web and mobile waste collection platform with scheduling, real-time tracking, and service request workflows. Web and mobile apps connected.",
     stack: ["Next.js", "TypeScript", "React Native", "REST APIs"],
