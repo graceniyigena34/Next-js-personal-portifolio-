@@ -17,10 +17,10 @@ export default function Skills() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-emerald-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16 animate-fadeInUp">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 text-transparent bg-clip-text mb-4">
               Skills & Expertise
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
@@ -38,7 +38,7 @@ export default function Skills() {
               { icon: "fa-users", title: "Workflow", desc: "Agile teamwork, collaborative development, and end-to-end delivery from concept to deployment." }
             ].map((skill, i) => (
               <div key={i} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300" style={{animation: `fadeInUp 1s ease ${i * 0.1}s both`}}>
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-xl flex items-center justify-center mb-6">
                   <i className={`fas ${skill.icon} text-3xl text-white`}></i>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{skill.title}</h3>
@@ -61,10 +61,10 @@ export default function Skills() {
                 <div key={i} className="mb-6">
                   <div className="flex justify-between mb-2">
                     <span className="font-semibold text-gray-800">{skill.name}</span>
-                    <span className="font-semibold text-blue-600">{skill.percent}%</span>
+                    <span className="font-semibold text-emerald-600">{skill.percent}%</span>
                   </div>
                   <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
-                    <div className="progress-fill h-full bg-gradient-to-r from-blue-600 to-blue-800 rounded-full transition-all duration-[2s] ease-out" data-width={skill.percent} style={{width: 0}}></div>
+                    <div className="progress-fill h-full bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-full transition-all duration-[2s] ease-out" data-width={skill.percent} style={{width: 0}}></div>
                   </div>
                 </div>
               ))}

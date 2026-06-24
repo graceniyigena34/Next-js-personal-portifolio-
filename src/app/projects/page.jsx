@@ -21,10 +21,10 @@ export default function Projects() {
   return (
     <div>
       <Navbar />
-      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-100">
+      <section className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-emerald-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 sm:mb-16">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text mb-4">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 text-transparent bg-clip-text mb-4">
               Featured Projects
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
@@ -34,7 +34,7 @@ export default function Projects() {
 
           <div className="flex justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 flex-wrap px-4">
             {["all", "web", "mobile", "design"].map(f => (
-              <button key={f} onClick={() => setFilter(f)} className={`px-4 sm:px-6 py-2 text-sm sm:text-base rounded-full border-2 border-blue-600 font-medium transition ${filter === f ? 'bg-blue-600 text-white' : 'text-blue-600 hover:bg-blue-600 hover:text-white'}`}>
+              <button key={f} onClick={() => setFilter(f)} className={`px-4 sm:px-6 py-2 text-sm sm:text-base rounded-full border-2 border-emerald-600 font-medium transition ${filter === f ? 'bg-emerald-600 text-white' : 'text-emerald-600 hover:bg-emerald-600 hover:text-white'}`}>
                 {f === "all" ? "All Projects" : f === "web" ? "Web Apps" : f === "mobile" ? "Mobile" : "Design"}
               </button>
             ))}
@@ -56,10 +56,10 @@ export default function Projects() {
                   <p className="text-gray-600 mb-4 leading-relaxed">{project.desc}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((t, j) => (
-                      <span key={j} className="px-3 py-1 bg-gray-100 text-blue-600 rounded-full text-sm">{t}</span>
+                      <span key={j} className="px-3 py-1 bg-gray-100 text-emerald-600 rounded-full text-sm">{t}</span>
                     ))}
                   </div>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition">
                     {project.category === 'design' ? 'View Design' : project.category === 'mobile' ? 'Download' : 'Live Demo'}
                   </a>
                 </div>

@@ -15,13 +15,13 @@ export default function Navbar() {
           </button>
 
           <div className="hidden md:flex space-x-8">
-            <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Home</a>
-            <a href="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">About</a>
-            <a href="/skills" className="text-gray-700 hover:text-blue-600 font-medium transition">Skills</a>
-            <a href="/projects" className="text-gray-700 hover:text-blue-600 font-medium transition">Projects</a>
-            <a href="/blog" className="text-gray-700 hover:text-blue-600 font-medium transition">Blog</a>
-            <a href="/faq" className="text-gray-700 hover:text-blue-600 font-medium transition">FAQ</a>
-            <a href="/contact" className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contact</a>
+            <a href="/" className="text-gray-700 hover:text-emerald-600 font-medium transition">Home</a>
+            <a href="/about" className="text-gray-700 hover:text-emerald-600 font-medium transition">About</a>
+            <a href="/skills" className="text-gray-700 hover:text-emerald-600 font-medium transition">Skills</a>
+            <a href="/projects" className="text-gray-700 hover:text-emerald-600 font-medium transition">Projects</a>
+            <a href="/blog" className="text-gray-700 hover:text-emerald-600 font-medium transition">Blog</a>
+            <a href="/faq" className="text-gray-700 hover:text-emerald-600 font-medium transition">FAQ</a>
+            <a href="/contact" className="px-6 py-2 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition">Contact</a>
           </div>
         </div>
       </div>
@@ -29,13 +29,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="flex flex-col space-y-4 px-4 py-6">
-            <a href="/" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-            <a href="/about" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">About</a>
-            <a href="/skills" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Skills</a>
-            <a href="/projects" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Projects</a>
-            <a href="/blog" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">Blog</a>
-            <a href="/faq" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-blue-600 font-medium">FAQ</a>
-            <a href="/contact" onClick={() => setIsOpen(false)} className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition text-center">Contact</a>
+            <a href="/" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">Home</a>
+            <a href="/about" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">About</a>
+            <a href="/skills" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">Skills</a>
+            <a href="/projects" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">Projects</a>
+            <a href="/blog" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">Blog</a>
+            <a href="/faq" onClick={() => setIsOpen(false)} className="text-gray-700 hover:text-emerald-600 font-medium">FAQ</a>
+            <a href="/contact" onClick={() => setIsOpen(false)} className="px-6 py-2 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition text-center">Contact</a>
           </div>
         </div>
       )}

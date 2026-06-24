@@ -96,7 +96,7 @@ export default function About() {
                     <span className="font-medium text-gray-800">{lang}</span>
                     <span className={`px-3 py-1 rounded-full text-sm font-semibold
                       ${level === "Excellent" ? "bg-green-100 text-green-700" :
-                        level === "Good" ? "bg-blue-100 text-blue-700" :
+                        level === "Good" ? "bg-emerald-50 text-emerald-700" :
                         "bg-purple-100 text-purple-700"}`}>
                       {level}
                     </span>
@@ -131,12 +131,12 @@ export default function About() {
                 </div>
                 <span className="text-sm font-semibold text-green-700 whitespace-nowrap">2022 – 2026</span>
               </div>
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border-l-4 border-blue-500 pl-4">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border-l-4 border-emerald-500 pl-4">
                 <div>
                   <p className="font-bold text-gray-900">A2 Certificate (Mathematics, Physics, Geography)</p>
                   <p className="text-gray-600">GS Ruhango Catholique</p>
                 </div>
-                <span className="text-sm font-semibold text-blue-700 whitespace-nowrap">2015 – 2021</span>
+                <span className="text-sm font-semibold text-emerald-700 whitespace-nowrap">2015 – 2021</span>
               </div>
             </div>
           </div>
