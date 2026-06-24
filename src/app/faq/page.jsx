@@ -6,31 +6,31 @@ import Footer from "../components/Footer";
 const faqs = [
   {
     q: "What type of roles are you currently looking for?",
-    a: "I am actively looking for roles in Full-Stack Development, Mobile Development, and Data Engineering. I am particularly interested in positions where I can use my backend, database, and API skills to build scalable, data-driven systems.",
+    a: "I am actively looking for roles in Full-Stack Development, Mobile Development, and Data Engineering. I am particularly interested in positions where I can use my experience in React, Next.js, React Native, Node.js, Django, and TypeScript to build modern, scalable, and user-friendly systems. I am open to internships, freelance projects, and full-time opportunities.",
   },
   {
     q: "What technologies do you work with?",
-    a: "Frontend: React.js, Next.js, TypeScript, JavaScript, HTML, CSS. Mobile: React Native. Backend: Node.js, Express.js, Django. Databases: MongoDB, PostgreSQL, Supabase. Tools: Git, GitHub, Figma, Adobe Express, Canva.",
+    a: "Frontend: React.js, Next.js, TypeScript, JavaScript, HTML, CSS. Mobile: React Native. Backend: Node.js, Express.js, Django, Python. Databases: MongoDB, PostgreSQL, Supabase. Tools: Git, GitHub, Figma, Adobe Express, Canva, MS Office.",
   },
   {
     q: "How does your experience relate to Data Engineering?",
-    a: "I have hands-on experience designing and managing databases (PostgreSQL, MongoDB, Supabase), building RESTful APIs for data exchange, and working with backend systems that handle real-world data flows. I am actively expanding into data pipelines, ETL processes, and data-driven system architecture to transition into Data Engineering.",
+    a: "I have hands-on experience managing databases including MongoDB, PostgreSQL, and Supabase across real-world projects. I have built RESTful APIs using Node.js and Express.js, implemented authentication systems, and worked with backend data flows in platforms like Event Konnect and Enjoy Rwanda. I am actively expanding into data pipelines and data-driven system architecture to grow into Data Engineering.",
   },
   {
     q: "Have you worked with databases in real projects?",
-    a: "Yes. I have used PostgreSQL and MongoDB in production projects including Event Konnect and Enjoy Rwanda, and implemented authentication and data storage with Supabase. I am comfortable with database schema design, querying, and integration with backend APIs.",
+    a: "Yes. I have managed MongoDB and PostgreSQL databases and implemented authentication systems using Supabase in multiple real-world projects including Event Konnect (kLab Academy) and Enjoy Rwanda (RG Consult). I am comfortable with database schema design, querying, and full integration with backend APIs.",
   },
   {
     q: "Are you available for internships or full-time opportunities?",
-    a: "Yes, I am open to internships, graduate roles, freelance projects, and full-time opportunities in both web/mobile development and data engineering. I am based in Kigali, Rwanda and can also work remotely.",
+    a: "Yes, I am available for internships, graduate roles, freelance projects, and full-time opportunities. I am based in Gasabo District, Kigali, Rwanda and I am open to remote work as well. You can reach me at graceniyigena34@gmail.com or +250 791 168 136.",
   },
   {
     q: "What real-world projects have you built?",
-    a: "Greenex Waste Collection Management System (Next.js, REST APIs), Event Konnect — a full-stack event management platform (kLab Academy), Enjoy Rwanda — a tourism and business listing platform (RG Consult internship), and a Banking Mobile App (React Native) with send money, withdraw, and chat features.",
+    a: "Greenex / EcoTrack Waste Collection Management System — web and mobile platform for waste collection scheduling and tracking. Event Konnect (kLab Academy) — full-stack event management system with registration and user interaction features. Enjoy Rwanda (RG Consult internship) — tourism and business listing platform with frontend and backend development. Banking Mobile App — React Native app with send money, withdraw, and bank chat features.",
   },
   {
     q: "What is your educational background?",
-    a: "I hold a BSc (Hons) in Information Technology from the University of Rwanda (2022–2026), and an A2 Certificate in Mathematics, Physics, and Geography from GS Ruhango Catholique (2015–2021).",
+    a: "I hold a BSc (Hons) in Information Technology from the University of Rwanda (2022 – 2026), where I developed web and mobile applications, built RESTful APIs, and managed databases.",
   },
   {
     q: "What languages do you speak?",
@@ -38,11 +38,11 @@ const faqs = [
   },
   {
     q: "How can I reach you?",
-    a: "You can email me at graceniyigena34@gmail.com, connect with me on LinkedIn (Marie Grace Niyigena), or use the Contact form on this portfolio.",
+    a: "Email: graceniyigena34@gmail.com | Phone: +250 791 168 136 | LinkedIn: linkedin.com/in/marie-grace-niyigena-14000a285 | GitHub: github.com/graceniyigena34 | Location: Gasabo District, Kigali, Rwanda. You can also use the Contact form on this portfolio.",
   },
   {
     q: "Are you comfortable working in a team?",
-    a: "Absolutely. I have worked in Agile team environments at kLab Academy and RG Consult, collaborating using Git, GitHub, and modern development workflows. I value clear communication and shared goals.",
+    a: "Absolutely. I have worked in Agile team environments at kLab Academy as a Full-Stack Developer and at RG Consult as a Software Developer Intern. I collaborate using Git and GitHub for version control, follow modern development workflows, and value clear communication, shared goals, and continuous feedback within a team.",
   },
 ];
 
