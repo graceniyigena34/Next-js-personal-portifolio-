@@ -53,6 +53,12 @@ const projects = [
       "Tourism platform where visitors can book shops and restaurants, reserve tables, and pay online.",
     stack: ["Next.js", "Node.js", "Online Payments", "Table Reservation"],
   },
+  {
+    title: "Banking Mobile App",
+    description:
+      "Mobile banking application where users can send money to the bank, withdraw funds, and chat with bank support — built as a cross-platform mobile app.",
+    stack: ["React Native", "Expo", "Mobile UI", "Chat Support"],
+  },
 ];
 
 const timeline = [
