@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
+  images: {
+    domains: ["image.thum.io"],
+  },
 };
 
 export default nextConfig;
