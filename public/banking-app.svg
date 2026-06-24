@@ -1,0 +1,99 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Decorative blobs -->
+  <circle cx="720" cy="-30" r="200" fill="#059669" opacity="0.08"/>
+  <circle cx="-40" cy="460" r="180" fill="#059669" opacity="0.08"/>
+
+  <!-- Header -->
+  <text x="50" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6ee7b7">Welcome back</text>
+  <text x="50" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Marie Grace Niyigena</text>
+
+  <!-- Avatar circle -->
+  <circle cx="755" cy="62" r="22" fill="#059669" opacity="0.5"/>
+  <text x="755" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">MG</text>
+
+  <!-- Balance card -->
+  <rect x="50" y="105" width="430" height="155" rx="20" fill="url(#cardGrad)"/>
+  <circle cx="420" cy="140" r="90" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="460" cy="220" r="60" fill="rgba(255,255,255,0.05)"/>
+  <text x="88" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.75)">Total Balance</text>
+  <text x="88" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800" fill="#ffffff">$12,450.00</text>
+  <text x="88" y="242" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)">**** **** **** 4821</text>
+  <text x="455" y="242" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.8)">VISA</text>
+
+  <!-- Quick Actions label -->
+  <text x="505" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.55)">Quick Actions</text>
+
+  <!-- Send Money -->
+  <rect x="505" y="135" width="120" height="105" rx="18" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="565" cy="170" r="22" fill="#10b981" opacity="0.85"/>
+  <text x="565" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="700">↑</text>
+  <text x="565" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Send Money</text>
+
+  <!-- Withdraw -->
+  <rect x="638" y="135" width="120" height="105" rx="18" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="698" cy="170" r="22" fill="#10b981" opacity="0.85"/>
+  <text x="698" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="700">↓</text>
+  <text x="698" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Withdraw</text>
+
+  <!-- Transactions heading -->
+  <text x="50" y="296" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="white">Recent Transactions</text>
+
+  <!-- Transaction 1 -->
+  <rect x="50" y="310" width="430" height="50" rx="13" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="84" cy="335" r="16" fill="#059669" opacity="0.65"/>
+  <text x="84" y="341" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="white" text-anchor="middle">↑</text>
+  <text x="112" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="white">Money Sent</text>
+  <text x="112" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">Today, 10:30 AM</text>
+  <text x="468" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#fca5a5" text-anchor="end">-$250.00</text>
+
+  <!-- Transaction 2 -->
+  <rect x="50" y="370" width="430" height="50" rx="13" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="84" cy="395" r="16" fill="#059669" opacity="0.65"/>
+  <text x="84" y="401" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="white" text-anchor="middle">↓</text>
+  <text x="112" y="390" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="white">Bank Withdrawal</text>
+  <text x="112" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">Yesterday, 2:15 PM</text>
+  <text x="468" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#fca5a5" text-anchor="end">-$100.00</text>
+
+  <!-- Transaction 3 -->
+  <rect x="50" y="430" width="430" height="50" rx="13" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="84" cy="455" r="16" fill="#10b981" opacity="0.7"/>
+  <text x="84" y="461" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="white" text-anchor="middle">+</text>
+  <text x="112" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="white">Deposit Received</text>
+  <text x="112" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)">Jun 22, 9:00 AM</text>
+  <text x="468" y="460" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#6ee7b7" text-anchor="end">+$500.00</text>
+
+  <!-- Chat panel -->
+  <rect x="505" y="255" width="255" height="230" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+  <text x="632" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">Bank Support Chat</text>
+  <line x1="505" y1="294" x2="760" y2="294" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Chat bubbles -->
+  <rect x="518" y="304" width="175" height="36" rx="14" fill="#059669" opacity="0.75"/>
+  <text x="605" y="326" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">Hello! How can I help you?</text>
+
+  <rect x="548" y="351" width="200" height="36" rx="14" fill="rgba(255,255,255,0.1)"/>
+  <text x="648" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">Check my balance please</text>
+
+  <rect x="518" y="398" width="185" height="36" rx="14" fill="#059669" opacity="0.75"/>
+  <text x="610" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">Your balance is $12,450.00</text>
+
+  <!-- Chat input -->
+  <rect x="515" y="449" width="220" height="30" rx="15" fill="rgba(255,255,255,0.09)"/>
+  <text x="540" y="469" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.35)">Type a message...</text>
+  <circle cx="724" cy="464" r="13" fill="#059669"/>
+  <text x="724" y="469" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">→</text>
+</svg>
